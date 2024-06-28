@@ -30,8 +30,8 @@ git clone https://github.com/CGCL-codes/Gen-AF.git
 ```shell
 cd Gen-AF
 # use anaconda to build environment 
-conda create -n Gen-Af python=3.8
-conda activate Gen-Af
+conda create -n Gen-AF python=3.8
+conda activate Gen-AF
 # install packages
 pip install -r requirements.txt
 ```
