@@ -41,7 +41,7 @@ pip install -r requirements.txt
     └- utils
         └- predict
     └- model
-        └- linear.py
+        └- linear
     └- data
     └- victims
         └- cifar10 (pre-training dataset)
