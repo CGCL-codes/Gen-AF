@@ -14,7 +14,6 @@ def KL(P,Q,mask=None):
 def CE(P,Q,mask=None):
     return KL(P,Q,mask)+KL(1-P,1-Q,mask)
 
-
 def genetic_regularization(adv_results, ben_results, y, sample_weight=0, eps=0.0000001):
     (n, d) = adv_results.shape
     distance = 2.0
