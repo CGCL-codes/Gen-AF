@@ -47,12 +47,11 @@ pip install -r requirements.txt
         └- cifar10 (pre-training dataset)
           └- simclr
              └- simclr-cifar10-b30xch14-ep=999.ckpt
-             └- clean_model
     └- output
     └- ...
     ```
 
-- **Download Victim Pre-trained Encoders**
+- **Download victim pre-trained encoders**
   - All of our pre-trained encoders were obtained from the [solo-learn](https://github.com/vturrisi/solo-learn)  repository, and some missing pre-trained encoders were trained by us based on their code.
   - Please move the downloaded pre-trained encoder into  /victims/[pre-dataset]/[method].
 
